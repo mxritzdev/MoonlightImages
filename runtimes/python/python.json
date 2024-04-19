@@ -1,0 +1,68 @@
+{
+  "Name": "Python Runtime",
+  "Author": "mail@mxritz.xyz",
+  "UpdateUrl": null,
+  "DonateUrl": "https://ko-fi.com/mxritzdev",
+  "StartupCommand": "if [[ -f ${REQUIREMENTS_FILE} ]]; then pip install -U --prefix .local -r ${REQUIREMENTS_FILE}; fi; /usr/local/bin/python {{APP_DOT_PY_FILE}}",
+  "OnlineDetection": "Python Version",
+  "StopCommand": "^C",
+  "InstallShell": "ash",
+  "InstallDockerImage": "alpine:latest",
+  "InstallScript": "#! /bin/bash\r\npwd\r\necho \"Installed\"\r\nexit 0",
+  "ParseConfiguration": "[]",
+  "AllocationsNeeded": 1,
+  "Variables": [
+    {
+      "Key": "APP_DOT_PY_FILE",
+      "DefaultValue": "main.py",
+      "DisplayName": "App File",
+      "Description": "The python file which gets executed",
+      "AllowView": true,
+      "AllowEdit": true,
+      "Filter": "^[^\\s]+\\.py$"
+    },
+    {
+      "Key": "REQUIREMENTS_FILE",
+      "DefaultValue": "requirements.txt",
+      "DisplayName": "Requirements File",
+      "Description": "The scripts requirements file",
+      "AllowView": false,
+      "AllowEdit": false,
+      "Filter": null
+    }
+  ],
+  "DefaultDockerImage": 3,
+  "AllowDockerImageChange": true,
+  "DockerImages": [
+    {
+      "DisplayName": "Python 2.7",
+      "Name": "ghcr.io/moritz-deiaco/python:2_7",
+      "AutoPull": true
+    },
+    {
+      "DisplayName": "Python 3.7",
+      "Name": "ghcr.io/moritz-deiaco/python:3_7",
+      "AutoPull": true
+    },
+    {
+      "DisplayName": "Python 3.8",
+      "Name": "ghcr.io/moritz-deiaco/python:3_8",
+      "AutoPull": true
+    },
+    {
+      "DisplayName": "Python 3.9",
+      "Name": "ghcr.io/moritz-deiaco/python:3_9",
+      "AutoPull": true
+    },
+    {
+      "DisplayName": "Python 3.10",
+      "Name": "ghcr.io/moritz-deiaco/python:3_10",
+      "AutoPull": true
+    },
+    {
+      "DisplayName": "Python 3.11",
+      "Name": "ghcr.io/moritz-deiaco/python:3_11",
+      "AutoPull": true
+    }
+  ]
+}
