@@ -1,7 +1,7 @@
 {
   "Name": "Minecraft Purpur",
   "Author": "mail@mxritz.xyz",
-  "UpdateUrl": null,
+  "UpdateUrl": "https://raw.githubusercontent.com/Moritz-Deiaco/MoonlightImages/master/games/minecraft/purpur.json",
   "DonateUrl": "https://ko-fi.com/mxritzdev",
   "StartupCommand": "java --add-modules=jdk.incubator.vector -Xms128M -Xmx{{SERVER_MEMORY}}M -Dterminal.jline=false -Dterminal.ansi=true -jar {{SERVER_JARFILE}}",
   "OnlineDetection": "! For help, type ",
@@ -45,22 +45,47 @@
   "DockerImages": [
     {
       "DisplayName": "Java 8",
-      "Name": "moonlightpanel/images:minecraft8",
+      "Name": "ghcr.io/moritz-deiaco/java:8",
       "AutoPull": true
     },
     {
       "DisplayName": "Java 11",
-      "Name": "moonlightpanel/images:minecraft11",
+      "Name": "ghcr.io/moritz-deiaco/java:11",
       "AutoPull": true
     },
     {
       "DisplayName": "Java 16",
-      "Name": "moonlightpanel/images:minecraft16",
+      "Name": "ghcr.io/moritz-deiaco/java:16",
       "AutoPull": true
     },
     {
       "DisplayName": "Java 17",
       "Name": "ghcr.io/moritz-deiaco/java:17",
+      "AutoPull": true
+    },
+    {
+      "DisplayName": "Java 18",
+      "Name": "ghcr.io/moritz-deiaco/java:18",
+      "AutoPull": true
+    },
+    {
+      "DisplayName": "Java 19",
+      "Name": "ghcr.io/moritz-deiaco/java:19",
+      "AutoPull": true
+    },
+    {
+      "DisplayName": "Java 20",
+      "Name": "ghcr.io/moritz-deiaco/java:20",
+      "AutoPull": true
+    },
+    {
+      "DisplayName": "Java 21",
+      "Name": "ghcr.io/moritz-deiaco/java:21",
+      "AutoPull": true
+    },
+    {
+      "DisplayName": "Java 22",
+      "Name": "ghcr.io/moritz-deiaco/java:22",
       "AutoPull": true
     }
   ]
