@@ -1,7 +1,7 @@
 {
   "Name": "Minecraft Purpur",
   "Author": "mail@mxritz.xyz",
-  "UpdateUrl": "https://raw.githubusercontent.com/Moritz-Deiaco/MoonlightImages/master/games/minecraft/purpur.json",
+  "UpdateUrl": null,
   "DonateUrl": "https://ko-fi.com/mxritzdev",
   "StartupCommand": "java --add-modules=jdk.incubator.vector -Xms128M -Xmx{{SERVER_MEMORY}}M -Dterminal.jline=false -Dterminal.ansi=true -jar {{SERVER_JARFILE}}",
   "OnlineDetection": "! For help, type ",
