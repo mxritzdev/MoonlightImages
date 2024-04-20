@@ -4,9 +4,9 @@ This Dotnet Moonlight Image runtime supports many dotnet versions and works with
 
 The Dotnet Version is changeable for the user.
 
-| Dotnet Version | Architecture |
-| -------------- | ------------ |
-| .NET core 3.1  | ARM, x86_64  |
-| .NET 6         | ARM, x86_64  |
-| .NET 7         | ARM, x86_64  |
-| .NET 8         | ARM, x86_64  |
+| Dotnet Version | Architecture     |
+| -------------- | ---------------- |
+| .NET core 3.1  | ARM, x64, x86_64 |
+| .NET 6         | ARM, x64, x86_64 |
+| .NET 7         | ARM, x64, x86_64 |
+| .NET 8         | ARM, x64, x86_64 |
