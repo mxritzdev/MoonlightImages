@@ -1,6 +1,6 @@
 # Python Moonlight Image
 
-This Python Moonlight Image runtime supports many java versions and works with ARM and x86_64.
+This Python Moonlight Image runtime supports many python versions and works with ARM and x86_64.
 
 The Python Version is changeable for the user.
 
