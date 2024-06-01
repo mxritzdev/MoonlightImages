@@ -3,7 +3,7 @@
   "Author": "mail@mxritz.xyz",
   "UpdateUrl": null,
   "DonateUrl": "https://ko-fi.com/mxritzdev",
-  "StartupCommand": "java --add-modules=jdk.incubator.vector -Xms128M -Xmx{{SERVER_MEMORY}}M -Dterminal.jline=false -Dterminal.ansi=true -jar {{SERVER_JARFILE}}",
+  "StartupCommand": "java -Xms128M -Xmx{{SERVER_MEMORY}}M -Dterminal.jline=false -Dterminal.ansi=true -jar {{SERVER_JARFILE}}",
   "OnlineDetection": "! For help, type ",
   "StopCommand": "stop",
   "InstallShell": "/bin/bash",
